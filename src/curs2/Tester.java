@@ -5,6 +5,7 @@ public class Tester {
 	//variabile
 	private String nume;
 	private int ratePerHour;
+	private int age;
 
 	//constructorul clasei - cand nu punem unu, creaza java un default constructor ca mai jos
 /*	public Tester() {
@@ -12,9 +13,10 @@ public class Tester {
 	}
 	*/
 	
-	public Tester(String nume, int ratePerHour) {
+	public Tester(String nume, int ratePerHour, int age) {
 		setNume(nume);
 		setRatePerHour(ratePerHour);
+		setAge(age);
 	}
 	
 	//metode getter & setter - s epot folosi in si aceasi clasa in main, dar nu are rost
@@ -40,5 +42,11 @@ public class Tester {
 		this.ratePerHour = ratePerHour;
 	}
 	
+	public int getAge() {
+		return age;
+	}
+	private void setAge(int age) {
+		this.age = age;
+	}
 	
 }
