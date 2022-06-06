@@ -49,16 +49,19 @@ public class GreatestOfThreeNumbers {
 			
 			System.out.println("The first number is the greatest!");
 			
-		}else if(number2 > number1 && number2 > number3 ) {
+		}else 
+			  if(number2 > number1 && number2 > number3 ) {
 			
-			System.out.println("The second number is the greatest!");
+			     System.out.println("The second number is the greatest!");
 			
-		}else if(number3 > number1 && number3>number2){
+		      }else
+		    	    if(number3 > number1 && number3>number2){
 			
-			System.out.println("The third number is the greatest!");
-		}else {
-			System.out.println("Some numbers are  equal");
-		}	
+		        	    System.out.println("The third number is the greatest!");
+		            }
+		    	    else {
+			           System.out.println("Some numbers are  equal");
+		            }	
 		
 		
 		

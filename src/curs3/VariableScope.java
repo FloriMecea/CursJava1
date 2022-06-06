@@ -3,16 +3,18 @@ package curs3;
 public class VariableScope {
 
 	
-	//variabila de instanta
+	//variabila de instanta- poate fi folosita pe un obiect de tipul VariableScope
 	public String prenume;
 	
+	
+	//asociata cu clasa in sine nu cu instanta
 	public static String prenume2;
 	
 	
 	//context static
 	public static void main(String[] args) {
 
-		//System.out.println(prenume);
+//		System.out.println(prenume);
 		System.out.println(prenume2);
 		
 		VariableScope obj =  new VariableScope();
@@ -25,7 +27,7 @@ public class VariableScope {
 	
 	
 	public String printeazaNume() {
-		String nume; //variabila locala
+		String nume; //variabila locala unei metode
 		prenume = "Bravo";
 		return prenume;
 	}

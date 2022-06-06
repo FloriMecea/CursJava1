@@ -13,7 +13,7 @@ public class WageCalculator {
 		//tester1.setNume("Ion"); //2 tipuri de atribuire/setare
 		//tester1.setNume("Ion");
 		
-		
+		//fiecare tester are propia locatie de memorie, fiecare cu valorile ei
 		Tester tester1= new Tester("Ion",20,20);
 	
 		//OOP concepte -> Polimorfism, Abstraction, Inheritacnce, Encapsulation

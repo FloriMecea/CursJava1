@@ -18,7 +18,7 @@ public class CheckNrIsOddOrEven {
 	public void askTheUserForANumber() {
 		System.out.println("Please enter a number :");
 		Scanner scan = new Scanner(System.in);
-		number = scan.nextInt();
+		number = scan.nextInt(); //citeste ce am introdus de la tastatura si preluat de System.in
 		
 	}
 	
