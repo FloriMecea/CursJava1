@@ -27,6 +27,7 @@ public class Tester {
 	}
 	
 	//this:  se foloseste dc este acelasi nume de variabila, dc aveam
+	// private- inseamna ca se poate apela/folosi doar in aceasta clasa -mai exact in constructor. In exteriorul clasei se poate apela doar constructorul caci este public
 	private void setNume(String nume) {
 		this.nume = nume;
 	}
