@@ -24,7 +24,7 @@ public class PasswordValidator {
 	
 	String username="";
 	Scanner scan= new Scanner(System.in);
-	boolean valid;
+	boolean valid=true;
 	
 	
 	public void getUsername() {
