@@ -1,7 +1,7 @@
 package curs10.Homework;
 
 public class Vehicul {
-	private String brand;
+	private String brand="brandVehicul";//puteau sa fie toate initializate cu ceva sau toate neintializate, am facut de proba una initializata
 	private String nivelPoluare;
 	private int vitezaMedie;
 	
@@ -24,9 +24,10 @@ public class Vehicul {
 		this.vitezaMedie = vitezaMedie;
 	}
 	
-	public String nume() {
-		String nume1 = "Vehicul";
-		return nume1;
+	public String nume(){
+		//String nume1 = "Vehicul";
+	//	return nume1;
+		return getBrand();
 	}
 
 	public String motorizare() {
@@ -35,6 +36,6 @@ public class Vehicul {
 	}
 	
 	public void detaliiVehicul() {
-		System.out.println("“Nivelul de poluare pentru masina Dacia este :5 si viteza medie atinsa este de 180 km/h”");
+		System.out.println("Nivelul de poluare pentru "+ brand + " este :"+nivelPoluare+" si viteza medie atinsa este de " +vitezaMedie+ " km/h");
 	}
 }
