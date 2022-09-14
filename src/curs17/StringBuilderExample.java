@@ -1,4 +1,4 @@
-package curs18;
+package curs17;
 
 public class StringBuilderExample {
 	
